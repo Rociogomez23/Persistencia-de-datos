@@ -21,7 +21,7 @@ Dada la base de datos ITBANK, se solicita ampliar el modelo de datos conocido co
 - Corregir el campo employee_hire_date de la tabla empleado con lafecha en formato YYYY-MM-DD
 -Para tal fin se recomienda usar las sentencias CREATE, ALTER, INSERT y UPDATE
 
-#### Problematica 2:
+### Problematica 2:
 Una vez realizado los cambios en la base de datos, se pide entregar un archivo SQLcon los siguientes requerimientos de consulta frecuente.
 -Crear una vista con las columnas id, numero sucursal, nombre, apellido, DNIy edad de la tabla cliente calculada a partir de la fecha de nacimientoo Mostrar las columnas de los clientes, ordenadas por el DNI de menora mayor y cuya edad sea superior a 40 años
 - Mostrar todos los clientes que se llaman “Anne” o “Tyler” ordenados por edad de menor a mayor
@@ -30,7 +30,7 @@ Una vez realizado los cambios en la base de datos, se pide entregar un archivo S
 - Eliminar el registro correspondiente a “Noel David” realizando la selección por el nombre y apellido
 - Consultar sobre cuál es el tipo de préstamo de mayor importe
 
-##### Problematica 3: 
+### Problematica 3: 
 -Seleccionar las cuentas con saldo negativo
 - Seleccionar el nombre, apellido y edad de los clientes que tengan en el apellido la letra Z
 - Seleccionar el nombre, apellido, edad y nombre de sucursal de las personas cuyo nombre sea “Brendan” y el resultado ordenarlo por nombre de sucursal
@@ -41,7 +41,7 @@ Una vez realizado los cambios en la base de datos, se pide entregar un archivo S
 - Seleccionar los préstamos que tengan fecha en abril, junio y agosto, ordenándolos por importe
 - Obtener el importe total de los prestamos agrupados por tipo de préstamos. Por cada tipo de préstamo de la tabla préstamo, calcular la suma de sus importes. Renombrar la columna como loan_total_accu
 
-###### Problematica 4: 
+#### Problematica 4: 
 - Listar la cantidad de clientes por nombre de sucursal ordenando de mayora menor
 - Obtener la cantidad de empleados por cliente por sucursal en un número real
 - Obtener la cantidad de tarjetas de crédito por tipo por sucursal
@@ -52,7 +52,7 @@ Una vez realizado los cambios en la base de datos, se pide entregar un archivo S
 - Mediante índices mejorar la performance la búsqueda de clientes por DNI
 - Crear la tabla “movimientos” con los campos de identificación del movimiento, número de cuenta, monto, tipo de operación y hora
 - Mediante el uso de transacciones, hacer una transferencia de 1000$ desde la cuenta 200 a la cuenta 400o Registrar el movimiento en la tabla movimientoso En caso de no poder realizar la operación de forma completa, realizarun ROLLBACK
-###### Integrante:
+#### Integrante:
 Rocio Ayelen Gomez 
 
 
